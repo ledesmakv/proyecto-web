@@ -1,0 +1,237 @@
+body{
+
+    background-color: white;
+    font-family: 'Encode Sans Condensed', sans-serif;
+
+}
+    /*HERE STARTS THE HEADER*/
+
+        nav{
+
+            width: auto;
+
+        }
+
+        .header{
+
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            font-family: 'Fjalla One', sans-serif;
+            background: black;
+            padding-bottom: auto;
+            margin: auto;
+
+        }
+
+        /*LOGOOOO*/
+
+            .mainPage{
+
+                font-size: 30px;
+                text-align: center;
+                background-color: black;
+                color: #e00543;
+                width: 20%;
+                flex: 1 auto;
+
+            }
+
+        .menuItems{
+
+            display: flex;
+            align-content: center;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 150%;
+
+        }
+
+            /*lista del nav*/
+
+                .menuItems li{
+
+                    flex-grow: 1;
+                    list-style: none;
+
+                }
+
+            /**  Botones del NAV*/
+
+                .menuItems li a{
+
+                    color: #e00543;
+                    font-family: 'Fjalla One', sans-serif;
+                    background-color: black;
+                    text-align: center;
+                    padding: 25px 50px;
+                    display: block;
+                    text-decoration: none;
+
+                }
+
+                .menuItems a:hover{
+                    background-color: #e00543;
+                    color: white;
+                }
+
+                button{
+
+                    align-self: center;
+
+                }
+
+                input{
+
+                    align-self: center;
+                    border-radius: 5%;
+
+                }
+
+                .search{
+
+                font-family: Arial, Helvetica, sans-serif;
+
+                }
+
+    /*HERE ENDS THE HEADER*/
+
+    /*HERE STARTS THE SECTION*/
+
+        h2{
+
+            font-size: 30px;
+
+
+        }
+
+        section {
+            
+            display: flex;
+            flex-flow: row wrap;
+            width: auto;
+            background-color: wheat;
+            padding: 2%;
+            margin: 2%;
+
+        }
+
+        img {
+
+            height: 25%;
+            width: 100%;
+            
+        }
+
+        .product {
+    
+            max-width: 20%;
+            border: 2%;
+            margin: auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            text-align: center;
+            background: white;
+
+        }
+
+        
+        /*HERE ENDS THE SECTION*/
+        
+        /*HERE STARTS THE FOOTER*/
+        
+        /*TERMS AND CONDITIONS AND ETC CONTAINER*/
+
+        h3{
+
+            font-size: 20px;
+
+        }
+
+            .items{
+
+                padding: 2%;
+                text-align: left;
+
+            }
+
+            .footerItems {
+
+                width: 100%;
+                padding: 2%;
+                justify-content: flex-end;
+                list-style: none;
+
+            }
+
+                .footerItems li a{
+
+                    color: #e00543;
+
+                }
+
+        /*SOCIAL NET CONTAINER*/
+
+            footer{
+
+                background: black;
+                color: #e00543;
+
+            }
+
+            .footerContainer{
+
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-items: flex-start;
+
+            }
+
+                /*SOCIAL NETWORKS*/
+
+                .footer{
+
+                    padding: 2%;
+                    display: flex;
+                    flex-flow: row wrap;
+                    flex-direction: column;
+                    text-align: center;
+
+                }
+
+                    /*SOCIAL NETWORK LIST*/
+
+                    .socialNet{
+
+                        list-style: none;
+                        margin-top: 2%;
+
+                    }
+                        .socialNet li a{
+
+                            color: #e00543;
+                            list-style: none; /*FUCKING LINE AIN'T DO SHIT ABOUT MY LIST STYLE SO FUCK IT*/
+                            font-size: 20px;
+
+                        }
+                        
+        /*NEWSLETTER CONTAINER*/
+
+
+        .newsletter{
+
+            display: flex;
+            flex-flow: column wrap;
+            padding: 2%;
+
+        }
+
+            /*NEWSLETTER BUTTON*/
+
+                button{
+
+                    display: flex;
+                    flex-flow: column wrap;
+
+                }
+    
+    /*HERE ENDS THE FOOTER*/
